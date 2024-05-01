@@ -11,13 +11,52 @@
 </head>
 
 <body>
-  <section id="logo">
+  <nav id="desktop-nav">
     <div class="logo__pic-container">
       <img src="./assets/KidGuard.PNG" alt="KidGuard Logo" class="icon"/>
     </div>
-  </section>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#legend">Legend</a></li>
+      </ul>
+    </div>
+</nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo__pic-container">
+      <img src="./assets/KidGuard.PNG" alt="KidGuard Logo" class="icon"/>
+    </div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li>
+          <u>Legend</u>
+          <button class="btn btn-color-red">
+            <li>1) Undetected child</li>
+            <li>2) Timer reached 0 </li>
+            <li>3) Danger</li>
+          </button>
+          <button class="btn btn-color-yellow">
+            <li>1) Rising Temperature</li>
+          </button>
+          <button class="btn btn-color-green">
+            <li>1) Detected child</li>
+            <li>2) Timer ticking</li>
+            <li>3) Timer off</li>
+            <li>4) Healthy</li>
+          </button>
+        </li>
+
+      </div>
+    </div>
+  </nav>
 
   <section id="profile">
+    
       <div class="btn-container">
         <button class="btn btn-color-1">Presence</button>
         <button class="btn btn-color-2">Temperature:--</button>
