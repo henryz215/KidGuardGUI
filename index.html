@@ -33,7 +33,7 @@
           <button class="btn btn-color-red">
             <li>1) Undetected child &#10006;</li>
             <li>2) Timer reached 0 </li>
-            <li>3) &ge;104&deg;F &#40;43&deg;C&#41;</li>
+            <li>3) &ge;104&deg;F &#40;40&deg;C&#41;</li>
           </button>
           <button class="btn btn-color-yellow">
             <li>1) &ge;90&deg;F &#40;32&deg;C&#41;</li>
@@ -42,20 +42,32 @@
             <li>1) Detected child &check;</li>
             <li>2) Timer ticking</li>
             <li>3) Timer off</li>
-            <li>4)  &lt;90&deg;F &#40;32&deg;C&#41;</li>
+            <li>4) &lt;90&deg;F &#40;32&deg;C&#41;</li>
           </button>
         </li>
-
       </div>
     </div>
   </nav>
 
   <section id="profile">
-    
       <div class="btn-container">
-        <button class="btn btn-color-1">Presence</button>
-        <button class="btn btn-color-2">Temperature:--</button>
-        <button class="btn btn-color-3">Timer: 00:05:00</button>
+        <button class="btn btn-color-1" id="presenceButton">Presence</button>
+        <div class="menuP presenceMenu">
+          <p>&rdca;&nbsp;Detect children, toddlers, and babies.<p>
+        </div>
+        <button class="btn btn-color-2" id="temperatureButton">Temperature</button>
+        <div class="menuT temperatureMenu">
+          <div style="background-color: #ADD8E6;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;&le;50&deg;F &#40;10&deg;C&#41;</div>
+          <div style="background-color: #98c377;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;50&deg;F &#40;10&deg;C&#41;&nbsp;&hyphen;&nbsp;68&deg;F &#40;20&deg;C&#41;</div>
+          <div style="background-color: #fffba0;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;68&deg;F &#40;20&deg;C&#41;&nbsp;&hyphen;&nbsp;77&deg;F &#40;25&deg;C&#41;</div>
+          <div style="background-color: #fffba0;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;77&deg;F &#40;25&deg;C&#41;&nbsp;&hyphen;&nbsp;86&deg;F &#40;30&deg;C&#41;</div>
+          <div style="background-color: #e17055;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;86&deg;F &#40;30&deg;C&#41;&nbsp;&hyphen;&nbsp;104&deg;F &#40;40&deg;C&#41;</div>
+          <div style="background-color: #d63031;">&nbsp;&nbsp;&nbsp;&nbsp;&rdca;&nbsp;&ge;104&deg;F &#40;40&deg;C&#41;</div>
+        </div>  
+        <button class="btn btn-color-3" id="timerButton">Timer</button>
+          <div class="menuTime timerMenu">
+            <p>&rdca;&nbsp;Detect children, toddlers, and babies.<p></p>
+          </div>
       </div>
   </section>
 
