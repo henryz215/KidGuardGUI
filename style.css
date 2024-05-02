@@ -185,7 +185,7 @@ section {
     font-weight: 600;
     padding: 2rem;
     width: fit-content;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     color: black;
 }
 /* Presence */
