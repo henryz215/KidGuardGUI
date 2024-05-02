@@ -19,7 +19,7 @@ html {
 }
 
 p {
-    color: rgb(85,85,85);
+    color: black;
 }
 
 /* TRANSITION */
@@ -54,10 +54,10 @@ a {
 }
 /* Underline Coloring */
 a:hover {
-    color: gray;
+    color: black;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(181,181,181);
+    text-decoration-color: black;
 }
 
 .logo {
