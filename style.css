@@ -11,7 +11,6 @@
 body {
     font-family: "Poppins", monospace;
     background: #ebe4e0;
-    color: black;
 }
 
 html {
@@ -19,7 +18,7 @@ html {
 }
 
 p {
-    color: black;
+    color: rgb(85,85,85);
 }
 
 /* TRANSITION */
@@ -54,10 +53,10 @@ a {
 }
 /* Underline Coloring */
 a:hover {
-    color: black;
+    color: gray;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    text-decoration-color: black;
+    text-decoration-color: rgb(181,181,181);
 }
 
 .logo {
