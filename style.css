@@ -100,7 +100,7 @@ a:hover {
     right: 0%;
     text-align: center;
     background-color: #ebe4e0;
-    width: 13rem;
+    width: fit-content;
     max-height: 0%;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
@@ -216,11 +216,12 @@ section {
 .btn-color-red,
 .btn-color-yellow,
 .btn-color-green {
+    color: black;
     font-family: "Poppins", monospace;
     font-size: 15px;
     border-radius: 0rem;
-    padding: 1rem;
-    width: 13rem;
+    padding: 0.5rem;
+    width: 11.75rem;
     text-align: left;
     border: rgb(53,53,53) 0.1rem solid;
 }
