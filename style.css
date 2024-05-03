@@ -271,12 +271,11 @@ section {
     align-items: center;
 }
 .clock-container {
-    padding-top:20vh;
-    width: 100%;
+    padding-top:25vh;
+    width: 90%;
     height: 15vh;
     background-color: #ebe4e0;
     padding-bottom: 20rem;
-    
 }
 .circle-container {
     width: 400px;
