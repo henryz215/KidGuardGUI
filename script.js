@@ -48,7 +48,6 @@ function countDownTimer() {
         timer.style.color = "red";
     }
 
-
     if(remainingTime < 0) {
         clearInterval(timerLoop);
         semicircles[0].style.display = 'none';
@@ -64,8 +63,6 @@ function countDownTimer() {
         `;
         timer.style.color = "lightgray";
     }
-
-
 }
 
 function toggleMenu() {
@@ -85,8 +82,4 @@ document.getElementById("presenceButton").addEventListener("click", function() {
     menu.classList.toggle("open");
   });
 
-  document.getElementById("timerButton").addEventListener("click", function() {
-    var menu = document.querySelector(".timerMenu");
-    menu.classList.toggle("open");
-  });
 
