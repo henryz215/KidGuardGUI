@@ -61,7 +61,7 @@ function countDownTimer() {
         <div class="colon">:</div>
         <div>00</div>
         `;
-        timer.style.color = "lightgray";
+        timer.style.color = "black";
     }
 }
 
