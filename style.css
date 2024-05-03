@@ -4,8 +4,7 @@
 /* GENERAL */
 * { 
     margin: 0;
-    padding: 0; 
-
+    padding: 0;
 }
 
 body {
@@ -15,6 +14,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    color: black;
 }
 
 p {
@@ -172,7 +172,6 @@ section {
 
 /* BUTTONS */
 .btn-container {
-    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,24 +191,24 @@ section {
     width: 20rem;
     font-size: 24px;
     border: rgb(53,53,53) 0.1rem solid;
-    background: #CF5D42; /* #red; */
-    color: black;
+    background: #d63031;
 }
 
 /* Temperature */
 .btn-color-2 {
     width: 20rem;
     font-size: 24px;
+    line-height: 1rem;
     border: rgb(53,53,53) 0.1rem solid;
-    background: #CF5D42; /* #yellow, #red; */
-    color: black;
+    background: #fffba0;
 }
 /* Timer */
 .btn-color-3 {
     width: 20rem;
     font-size: 24px;
     border: rgb(53,53,53) 0.1rem solid;
-    background: #CF5D42; /* #yellow, #red; */
+    background: #CF5D42;
+    padding: 0rem;
 }
 
 .menuP,
@@ -225,14 +224,12 @@ section {
     font-size: 15px;
     box-sizing: border-box;
 }
-
 .menuP {
     background: #FFBD59;
 }
 .menuT {
     text-align: left;
 }
-
 .menuP p,
 .menuT p {
     color: black;
@@ -243,7 +240,6 @@ section {
     width: 20rem; 
     max-height: 10rem;
 } 
-
 
 /* Hamburger Menu Buttons */
 .btn-color-red,
@@ -268,6 +264,90 @@ section {
     background: rgba(3, 100, 3, 1);
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    padding-top:20vh;
+    width: 100%;
+    height: 15vh;
+    background-color: #ebe4e0;
+    padding-bottom: 20rem;
+    
+}
+
+.circle-container {
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.semicircle {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+}
+
+.semicircle:nth-child(1) {
+    background-color: #088b8b;
+    z-index: 2;
+}
+.semicircle:nth-child(2) {
+    background-color: #088b8b;
+    z-index: 3;
+}
+.semicircle:nth-child(3) {
+    background-color: #ddd;
+    z-index: 4;
+}
+
+.outermost-circle {
+    width: 390px;
+    height: 390px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.timer-container {
+    width: 330px;
+    height: 200px;
+    z-index: 6;
+}
+
+.timer {
+    width: 400px;
+    height: 100px;
+    z-index: 7;
+}
+
+.timer div {
+    font-size: 70px;
+    font-weight: 100;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.timer .colon {
+    background-color: transparent;
+    width: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
 /* FOOTER SECTION */
 footer {
     min-height: fit-content;
