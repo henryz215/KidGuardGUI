@@ -225,6 +225,7 @@ section {
     box-sizing: border-box;
 }
 .menuP {
+    text-align: left;
     background: #FFBD59;
 }
 .menuT {
