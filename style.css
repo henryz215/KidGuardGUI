@@ -282,7 +282,7 @@ section {
 .circle-container {
     width: 400px;
     height: 400px;
-    background-color: #ddd;
+    background-color: rgb(90,157,238); ;
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
@@ -307,7 +307,7 @@ section {
     z-index: 3;
 }
 .semicircle:nth-child(3) {
-    background-color: #ddd;
+    background-color: rgb(90,157,238);
     z-index: 4;
 }
 
